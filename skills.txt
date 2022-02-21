@@ -1,0 +1,3 @@
+skills learned in the course:theory, client-server, HTTP, selects, Json, xml & structure, API, postman, Dev Tools, VPN, mobile testing, charles, fiddler, python
+
+

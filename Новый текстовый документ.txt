@@ -1,0 +1,273 @@
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~
+$ git clone https://github.com/aigul1402/txt.git
+Cloning into 'txt'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~
+$ touch new.txt
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~
+$ cd GitHub/
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub
+$ ls
+group_27/  linux_terminal/  txt/
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub
+$ cd txt
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ vim f_new.txt
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        f_new.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git add f_new.txt
+warning: LF will be replaced by CRLF in f_new.txt.
+The file will have its original line endings in your working directory
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   f_new.txt
+
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git push
+Everything up-to-date
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git commit -m "add file f_new.txt"
+[main 0e18d93] add file f_new.txt
+ 1 file changed, 2 insertions(+)
+ create mode 100644 f_new.txt
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 308 bytes | 308.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aigul1402/txt.git
+   928d054..0e18d93  main -> main
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ vim f_new.txt
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   f_new.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git add .
+warning: LF will be replaced by CRLF in f_new.txt.
+The file will have its original line endings in your working directory
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   f_new.txt
+
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git commit -am "change f_new.txt"
+[main 21fb335] change f_new.txt
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 411 bytes | 411.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aigul1402/txt.git
+   0e18d93..21fb335  main -> main
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ vim preferences.txt
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ vim sklls.txt
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        preferences.txt
+        sklls.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git commit -m "add 2 file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        preferences.txt
+        sklls.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        preferences.txt
+        sklls.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git add .
+warning: LF will be replaced by CRLF in preferences.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in sklls.txt.
+The file will have its original line endings in your working directory
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git commit -m "add 2 file"
+[main 09f820c] add 2 file
+ 2 files changed, 7 insertions(+)
+ create mode 100644 preferences.txt
+ create mode 100644 sklls.txt
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.33 KiB | 683.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aigul1402/txt.git
+   21fb335..09f820c  main -> main
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ vim bug_report.txt
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ cat bug_report.txt
+баг-репорт №1
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ ^C
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ cat bug_report.txt
+баг-репорт №1
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bug_report.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git add .
+warning: LF will be replaced by CRLF in bug_report.txt.
+The file will have its original line endings in your working directory
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   bug_report.txt
+
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git push
+Everything up-to-date
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git commit -am "changes bug_report.txt"
+[main ff51ef6] changes bug_report.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 bug_report.txt
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/aigul1402/txt.git
+   09f820c..ff51ef6  main -> main
+
+Пользователь@DESKTOP-7069A0U MINGW64 ~/GitHub/txt (main)
+$
