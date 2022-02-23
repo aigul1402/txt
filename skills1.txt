@@ -9,6 +9,3 @@ skills learned in the course:
 8) Mobile testing
 9) Charles, Fiddler
 10) Python
-
-
-
